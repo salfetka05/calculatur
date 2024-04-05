@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+</head>
+<link rel="stylesheet" href="style.css" />
+<body>
+    <div class="calculator">
+        <input type="text" placeholder="0" id="display" />
+        <div>
+            <button class="operator ac">AC</button>
+            <button class="operator del">DEL</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
+        </div>
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">*</button>
+        </div>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">-</button>
+        </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">+</button>
+        </div>
+        <div>
+            <button>00</button>
+            <button>0</button>
+            <button id="dot">.</button> <!-- Добавлено id для кнопки десятичного разделителя -->
+            <button class="equalbtn">=</button>
+        </div>
+        
+    
+        <!-- Кнопка для отображения истории вычислений -->
+        <button id="history">Show History</button>
+      
+        <!-- Кнопка для вычисления квадратного корня -->
+        <button id="square-root">√</button>
+        <!-- Пример кнопки для возведения в квадрат -->
+        <button id="square">x²</button>
+        <!-- Кнопка для вызова других математических функций -->
+        <!-- Дополнительные кнопки для других математических функций могут быть добавлены здесь -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
